@@ -1,0 +1,24 @@
+  To simply run the SDES, compile and run run_SDES.cpp.
+In linux do this:
+g++ run_SDES.cpp -o run -std=c++11
+./run
+
+
+
+I added make file you can see "makes" by typing make -f makefile.mak
+and run:
+./client
+./server in a different terminal window so that you can see connection while establishing.
+then use commands for client to send actions to server side.
+
+
+In windows you can open it with your favourite c++ IDE and compile and run.
+
+To see the client-server in action, do this in linux:
+make -f makefile.mak
+You will see all the .cpp files compiled with no warnings.
+Now run Server with a tcp port no.:
+​./server 7000​
+​Run Client/s in other terminal/s like this:
+./client
+Usage of client commands will be shown on terminal.
